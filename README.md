@@ -29,7 +29,8 @@ TO-DO
   * ES6+ Features
 - Objects & Interfaces
   * Built-In Global Objects
-    * Array, Object, Math, String, Function
+    * Fundamental
+    * Collections & Utilities
   * Web APIs
     * General Utilities
     * DOM Manipulation
@@ -128,7 +129,15 @@ TO-DO
 
 ## Built-In Global Objects
 
-TO-DO - Array, Object, Math, String, Function
+TO-DO
+
+### Fundamental
+
+TO-DO - Object, Function
+
+### Collections & Utilities
+
+TO-DO - Array, Math, String, RegExp
 
 ## Web APIs
 
