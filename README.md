@@ -9,7 +9,7 @@ TO-DO
 - Programming Fundamentals
   * Fundamental Semantics
     * Values, Literals, and Data Types
-    * Keywords
+    * Identifiers & Keywords
     * Operators & Precedence
     * Truthy vs. Falsy
     * Expressions
@@ -51,7 +51,7 @@ TO-DO
 
 TO-DO
 
-### Keywords
+### Identifiers & Keywords
 
 TO-DO
 
