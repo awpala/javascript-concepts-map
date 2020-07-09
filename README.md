@@ -20,6 +20,7 @@ TO-DO
     * Repetition
       * for Loops
       * while Loops
+      * break and continue
     * Functions
     * Error Handling
   * Program Organization: Objects & Object-Oriented Programming (OOP)
@@ -94,6 +95,8 @@ TO-DO
 #### while Loops
 
 TO-DO
+
+#### break and continue
 
 ### Functions
 
