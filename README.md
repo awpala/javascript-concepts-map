@@ -11,7 +11,7 @@ TO-DO
     * Values, Literals, and Data Types
     * Identifiers & Keywords
     * Operators & Precedence
-    * Truthy vs. Falsy
+    * Boolean Operators & Truthy vs. Falsy
     * Expressions
   * Program Organization: Statements & Control Structures
     * Conditionals
@@ -22,7 +22,7 @@ TO-DO
       * while Loops
     * Functions
     * Error Handling
-  * Program Organization: Objects & object-Oriented Programming (OOP)
+  * Program Organization: Objects & Object-Oriented Programming (OOP)
     * Object & Array Literals
     * Prototypal Inheritance
     * Classes (ES6)
@@ -59,7 +59,7 @@ TO-DO
 
 TO-DO
 
-### Truthy vs. Falsy
+### Boolean Operators & Truthy vs. Falsy
 
 TO-DO
 
@@ -137,7 +137,7 @@ TO-DO - `Object`, `Function`
 
 ### Collections & Utilities
 
-TO-DO - `Array`, `Math`, `String`, `RegExp`
+TO-DO - `Array`, `Math`, `String`, `Set`, `RegExp`
 
 ## Web APIs
 
