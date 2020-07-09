@@ -133,11 +133,11 @@ TO-DO
 
 ### Fundamental
 
-TO-DO - Object, Function
+TO-DO - `Object`, `Function`
 
 ### Collections & Utilities
 
-TO-DO - Array, Math, String, RegExp
+TO-DO - `Array`, `Math`, `String`, `RegExp`
 
 ## Web APIs
 
@@ -145,11 +145,11 @@ TO-DO
 
 ### General Utilities
 
-TO-DO
+TO-DO - `Console`
 
 ### DOM Manipulation
 
-TO-DO
+TO-DO - `Window`, `Document`, `Node`, `Element`, `HTMLElement`, `HTMLCollection`, `NodeList`, `Event`
 
 ## Asynchronous Programming
 
@@ -157,13 +157,13 @@ TO-DO
 
 ### Web APIs
 
-TO-DO
+TO-DO - `XMLHttpRequest`, `Fetch`
 
 ### Built-In Global Objects
 
-TO-DO
+TO-DO - `Promise`, `async`/`await`
 
 ## Error Handling
 
-TO-DO
+TO-DO - `Error` (and related `...Error` objects)
 
