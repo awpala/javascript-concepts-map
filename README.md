@@ -38,7 +38,7 @@ TO-DO
   * Asynchronous Programming
     * Web APIs
     * Built-In Global Objects
-  * Error Handling
+  * Exception Handling
 
 # Programming Fundamentals
 
@@ -98,11 +98,13 @@ TO-DO
 
 #### break and continue
 
+TO-DO
+
 ### Functions
 
 TO-DO
 
-### Error Handling
+### Exception Handling
 
 TO-DO
 
