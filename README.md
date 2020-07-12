@@ -22,7 +22,7 @@ TO-DO
       * while Loops
       * break and continue
     * Functions
-    * Error Handling
+    * Exception Handling
   * Program Organization: Objects & Object-Oriented Programming (OOP)
     * Object & Array Literals
     * Prototypal Inheritance
@@ -166,7 +166,7 @@ TO-DO - `XMLHttpRequest`, `Fetch`
 
 TO-DO - `Promise`, `async`/`await`
 
-## Error Handling
+## Exception Handling
 
 TO-DO - `Error` (and related `...Error` objects)
 
