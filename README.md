@@ -28,7 +28,7 @@ TO-DO
     * Prototypal Inheritance
     * Classes (ES6)
   * ES6+ Features
-- Objects & Interfaces
+- Native & Host Objects
   * Built-In Global Objects
     * Fundamental
     * Collections & Utilities
@@ -128,7 +128,7 @@ TO-DO
 
 TO-DO
 
-# Objects & Interfaces
+# Native & Host Objects
 
 TO-DO
 
