@@ -34,7 +34,7 @@ TO-DO
     * Collections & Utilities
   * Web APIs
     * General Utilities
-    * DOM Manipulation
+    * DOM Interaction
   * Asynchronous Programming
     * Web APIs
     * Built-In Global Objects
@@ -223,9 +223,27 @@ TO-DO
 
 TO-DO - `Console`
 
-### DOM Manipulation
+| Utility Object | Description | Representative Properties | Representative Methods | MDN Reference |
+| :---: | :---: | :---: | :---: | :---: |
+| `Console` | Display information to the Web console | (*No properties*) | `console.clear()`, `console.debug()`, `console.dir()`, `console.error()`, `console.info()`, `console.log()`, `console.table()`, `console.time()`, `console.timeEnd()`, `console.trace()` | [console](https://developer.mozilla.org/en-US/docs/Web/API/console) | 
 
-TO-DO - `Window`, `Document`, `Node`, `Element`, `HTMLElement`, `HTMLCollection`, `NodeList`, `Event`
+### DOM Interaction
+
+TO-DO - `Window`, `Document`, `Element`, `Event`, `EventTarget`, `HTMLCollection`, `HTMLElement`, `Node`, `NodeList`
+
+!TO-DO: `Window` [MDN Window](https://developer.mozilla.org/en-US/docs/Web/API/Window)
+
+| DOM Object | Description | Representative Properties | Representative Methods | MDN Reference |
+| :---: | :---: | :---: | :---: | :---: |
+| `Document` | Represents the DOM tree of the Web page | `document.body`, `document.documentElement`, `document.head`, `document.links`, `node.childElementCount`, `node.children`, `node.firstElementChild`, `node.lastElementChild`, `document.onselectionchange`, `document.onvisibilitychange` | `document.addEventListener()`, `document.adoptNode()`, `document.createAttribute()`, `document.createElement()`, `document.createEvent()`, `document.getElementsbyClassName()`, `document.getElementsByTagName()`, `document.importNode()`, `document.getElementById()`, `document.querySelector()`, `document.querySelectorAll()` |[Document](https://developer.mozilla.org/en-US/docs/Web/API/document) |
+| `Element` | The base class for elements in the `Document` object (e.g., `HTMLElement` and `SVGElement`) | `element.attributes`, `element.addEventListener()`, `element.classList`, `element.className`, `element.id`, `element.innerHTML`, `element.outerHTML`, `element.tagName`, `element.onfullscreenchange` | `element.addEventListener()`, `element.dispatchEvent()`, `element.getAttribute()`, `element.getAttributeName()`, `element.getElementsByClassName()`, `element.getelementsByTagName()`, `element.hasAttribute()`, `element.hasAttributes()`, `element.hasPointerCapture()`, `element.insertAdjacentElement()`, `element.insertAdjacentHTML()`, `element.matches()`, `element.querySelector()`, `element.querySelectorAll()`, `element.removeAttribute()`, `element.removeEventListener()`, `element.setAttribute()`, `element.toggleAttribute()` | [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) |
+| `Event` | An interaction (e.g., by user) with the DOM | `event.bubbles`, `event.cancelable`, `event.currentTarget`, `event.defaultPrevented`, `event.eventPhase`, `event.target`, `event.type`, `event.isTrusted` | `event.preventDefault()`, `event.stopImmediatePropagation()`, `event.stopPropagation()` | [Event](https://developer.mozilla.org/en-US/docs/Web/API/Event) |
+| `EventTarget` | An object which can receive events and listeners (e.g., `Element`, `Document`, and `Window`)  | (*no properties*) | `target.addEventListener()`, `target.removeEventListener()`, `target.dispatchEvent()` | [EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget) |
+| `HTMLCollection` | An array-like collection of HTML elements in document order | `c.length` | `c.item()`, `c.namedItem()` | [HTMLCollection](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection) |
+| `HTMLElement` | An object representing any HTML element | `element.addEventListener()`, `element.contentEditable`, `elementisContentEditable`, `element.dir`, `element.hidden`, `element.innerText`, `element.itemId`, `element.itemRef`, `element.itemValue`, `element.style`, `element.title` | `element.blur()`, `element.click()`, `element.focus()` | [HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) |
+| `Node` | A key base class for other DOM API objects representing a generic node in the DOM tree (which can be, for example, an `Element`) | `node.baseURI`, `node.childNodes`, `node.firstChild`, `node.lastChild`, `node.nextSibling`, `node.nodeName`, `node.nodeType`, `node.nodeValue`, `node.parentNode`, `node.parentElement`, `node.previousSibling`, `node.textContent` | `node.appendChild()`, `node.cloneNode()`, `node.contains()`, `node.getRootNode()`, `node.hasChildNodes()`, `node.inserBefore()`, `node.isEqualNode()`, `node.isSameNode()`, `node.removeChild()`, `node.replaceChild()` | [Node](https://developer.mozilla.org/en-US/docs/Web/API/Node) |
+| `NodeList` | A collection of nodes | `nodeList.length` | `nodeList.item()`, `nodeList.entries()`, `nodeList.forEach()`, `nodeList.keys()`, `nodeList.values()` | [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) |
+
 
 ## Asynchronous Programming
 
