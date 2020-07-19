@@ -39,6 +39,13 @@ TO-DO
     * Web APIs
     * Built-In Global Objects
   * Exception Handling
+- Third-Party Libraries: Full-Stack Web Applications
+  * Frontend: React
+  * Backend: Node.js & Express
+  * Utilities
+    * Axios
+    * Massive
+    * bcrypt
 
 # Programming Fundamentals
 
@@ -288,3 +295,30 @@ TO-DO - `Promise`, `async`/`await`
 
 TO-DO - `Error` (and related `...Error` objects)
 
+# Third-Party Libraries: Full-Stack Web Applications
+
+TO-DO
+
+## Frontend: React
+
+TO-DO
+
+## Backend: Node.js & Express
+
+TO-DO
+
+## Utilities
+
+TO-DO
+
+### Axios
+
+TO-DO
+
+### Massive
+
+TO-DO
+
+### bcrypt
+
+TO-DO
