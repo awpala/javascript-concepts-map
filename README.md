@@ -205,6 +205,8 @@ TO-DO
 
 TO-DO
 
+***Notation Note***: In general, an instance object will be denoted with `camelCase` (e.g., `arr.length`, `nodeList.item()`, etc.), whereas a static object will be denoted by the object's class name in `PascalCase` (e.g., `Math.PI`, `Promise.all()`, etc.). The principal exception to the latter is the `Console` API, which by convention/specification uses lowercase to refer to the static `console` object (e.g., `console.log()`).
+
 ## Built-In Global Objects
 
 TO-DO
