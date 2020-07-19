@@ -136,6 +136,15 @@ TO-DO
 
 TO-DO
 
+| Book Analogy | Software Counterpart |
+| :---: |  :---: |
+| Book | Application Program |
+| Chapters and References | Control Structures |
+| Sentences | Statements |
+| Phrases and Clauses | Expressions |
+| Grammatical/Function Words | Operators |
+| Lexical Words | Values |
+
 ### Conditionals
 
 TO-DO
