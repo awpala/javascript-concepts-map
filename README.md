@@ -278,6 +278,12 @@ fetch(request)
 
 TO-DO - `Promise`, `async`/`await`
 
+| Async Promise Object | Description | Representative Properties | Representative Methods | MDN Reference |
+| :---: | :---: | :---: | :---: | :---: |
+| `Promise` | An object representing the evantual completion/failure of an asynchronous operation, and its resulting value (i.e., *pending*, *fulfilled*, or *rejected*) | (*no properties*) | `Promise.all()`, `Promise.allSettled()`, `Promise.any()`, `p.catch()`, `p.finally()`, `Promise.race()`, `Promise.reject()`, `Promise.resolve()`, `p.then()` | [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) |
+
+!TO-DO: `async`/`await` functions (ES8+)
+
 ## Exception Handling
 
 TO-DO - `Error` (and related `...Error` objects)
