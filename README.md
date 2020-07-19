@@ -197,9 +197,23 @@ TO-DO
 
 TO-DO - `Object`, `Function`
 
+| Fundamental Object | Description | Representative Properties | Representative Methods | MDN Reference |
+| :---: | :---: | :---: | :---: | :---: |
+| `Object` | The base object from which all object/reference types inherit (via prototypal inheritance), and provides  a key/value storage collection | `obj.constructor`, `obj.__proto__` | `obj.assign()`, `obj.create()`, `obj.entries()`, `obj.is()`, `obj.keys()`, `obj.toString()`, `obj.values()` | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |
+| `Function` | Routes inputs and outputs, and modularizes code | `fn.length`, `fn.name` | `fn.apply()`, `fn.bind()`, `fn.call()` | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) |
+
 ### Collections & Utilities
 
 TO-DO - `Array`, `Math`, `String`, `Set`, `RegExp`
+
+| Collection/Utility Object | Description | Representative Properties | Representative Methods | MDN Reference |
+| :---: | :---: | :---: | :---: | :---: |
+| `Array` | An indexed ordered-list collection | `arr.length` | `arr.concat()`, `arr.every()`, `arr.filter()`, `arr.find()`, `arr.findIndex()`, `arr.forEach()`, `arr.includes()`, `arr.indexOf()`, `arr.join()`, `arr.keys()`, `arr.map()`, `arr.pop()`, `arr.push()`, `arr.reduce()`, `arr.reduceRight()`, `arr.reverse()`, `arr.shift()`, `arr.slice()`, `arr.some()`, `arr.sort()`, `arr.splice()`, `arr.unshift()` | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) |
+| `Map` | Collection of key-value pairs which remembers original insertion order of the keys | `map.size` | `map.clear()`, `map.delete()`, `map.forEach()`, `map.get()`, `map.has()`, `map.keys()`, `map.set()`, `map.values()` | [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) |
+| `Math` | Mathematical constants and functions | `Math.E`, `Math.LN2`, `Math.LN10`, `Math.LOG2E`, `Math.LOG10E`, `Math.PI`, `Math.SQRT1_2`, `Math.SQRT2` | `Math.abs()`, `Math.ceil()`, `Math.cos()`, `Math.exp()`, `Math.floor()`, `Math.log()`, `Math.max()`, `Math.min()`, `Math.pow()`, `Math.random()`, `Math.round()`, `Math.sin()`, `Math.sqrt()`, `Math.tan()`, `Math.trunc()` | [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) |
+| `Set` | Collection of unique values which are iterable by insertion order | `set.size` | `set.add()`, `set.clear()`, `set.delete()`, `set.entries()`, `set.forEach()`, `set.has()`, `set.keys()`, `set.values()` | [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) |
+| `String` | A wrapper around the primitive string which represents text information that can be modified | `str.length` | `str.charAt()`, `str.concat()`, `str.includes()`, `str.endsWith()`, `str.indexOf()`, `str.lastIndexOf()`, `str.match()`, `str.matchAll()`, `str.padEnd()`, `str.padStart()`, `str.repeat()`, `str.replace()`, `str.replaceAll()`, `str.search()`, `str.slice()`, `str.split()`, `str.startsWith()`, `str.substr()`, `str.substring()`, `str.toLowerCase()`, `str.toUpperCase()`, `str.trim()`, `str.trimStart()`, `str.trimEnd()` | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |
+| `RegExp` | Text processing using regular expressions | `re.flags`, `re.dotAll`, `re.global`, `re.ignoreCase`, `re.multiline`, `re.source`, `re.sticky` | `re.compile()`, `re.exec()`, `re.test()` | [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) |
 
 ## Web APIs
 
