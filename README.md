@@ -217,7 +217,7 @@ TO-DO - `Object`, `Function`
 
 | Fundamental Object | Description | Representative Properties | Representative Methods | MDN Reference |
 | :---: | :---: | :---: | :---: | :---: |
-| `Object` | The base object from which all object/reference types inherit (via prototypal inheritance), and provides  a key/value storage collection | `obj.constructor`, `obj.__proto__` | `obj.assign()`, `obj.create()`, `obj.entries()`, `obj.is()`, `obj.keys()`, `obj.toString()`, `obj.values()` | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |
+| `Object` | The base object from which all object/reference types inherit (via prototypal inheritance), and provides  a key/value storage collection | `obj.constructor` | `Object.assign()`, `Object.create()`, `Object.entries()`, `Object.is()`, `Object.keys()`, `obj.toString()`, `Object.values()` | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) |
 | `Function` | Routes inputs and outputs, and modularizes code | `fn.length`, `fn.name` | `fn.apply()`, `fn.bind()`, `fn.call()` | [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) |
 
 ### Collections & Utilities
