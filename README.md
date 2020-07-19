@@ -253,6 +253,27 @@ TO-DO
 
 TO-DO - `XMLHttpRequest`, `Fetch`
 
+| Async HTTP Request Object | Description | Representative Properties | Representative Methods | MDN Reference |
+| :---: | :---: | :---: | :---: | :---: |
+| `XMLHttpRequest` | Object to interact with Web servers asynchronously, used extensively in AJAX programming  | `xhr.onreadystatechange`, `xhr.readyState`, `xhr.response`, `xhr.responseText`, `xhr.status`, `xhr.statusText`, `xhr.timeout` | `xhr.abort()`, `xhr.getAllResponseHeaders()`, `xhr.getResponseHeader()`, `xhr.open()`, `xhr.send()`, `xhr.setRequestHeader()` | [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) |
+
+!TO-DO: Fetch API - e.g., 
+```js
+fetch(request)
+ .then(response => { ... return ...; })
+ // (optional) chained .then(...)'s
+ .catch(error => { ... return ...; };
+```
+
+| Fetch API Object | Description | Representative Properties | Representative Methods | MDN Reference |
+| :---: | :---: | :---: | :---: | :---: |
+| `Body` | Represents the body of the `Request` and `Response` object | `response.body`, `response.bodyUsed` | `response.blob()`, `response.formData()`, `response.json()`, `response.text()` | [Body](https://developer.mozilla.org/en-US/docs/Web/API/Body) |
+| `Headers` | Performs various action on HTTP request and response headers | (*no properties*) | `headers.append()`, `headers.delete()`, `headers.entries()`, `headers.forEach()`, `headers.forEach()`, `headers.get()`, `headers.has()`, `headers.keys()`, `headers.set()`, `headers.values()` | [Headers](https://developer.mozilla.org/en-US/docs/Web/API/Headers) |
+| `Request` | Represents an HTTP resource request | `request.body`, `request.bodyUsed`, `request.cache`, `request.destination`, `request.headers`, `request.method`, `request.mode`, `request.url` | `request.clone()`, `request.blob()`, `request.formData()`, `request.json()`, `request.text()` | [Request](https://developer.mozilla.org/en-US/docs/Web/API/Request) |
+| `Response` | Represents the response to an HTTP request | `response.body`, `response.bodyUsed`, `response.headers`, `response.ok`, `response.status`, `response.statusText`, `response.type`, `response.url` | `response.blob()`, `response.clone()`, `response.error()`, `response.formData()`, `response.json()`, `response.redirect()`, `response.text()` | [Response](https://developer.mozilla.org/en-US/docs/Web/API/Response) |
+
+!TO-DO: global (async) functions `setTimeout`, `clearTimeout`, `setInterval`, `clearInterval`
+
 ### Built-In Global Objects
 
 TO-DO - `Promise`, `async`/`await`
