@@ -185,6 +185,11 @@ TO-DO
 
 TO-DO
 
+| Primitives | Objects |
+| :---: | :---: |
+| Values | Properties |
+| Operators | Methods |
+
 ### Object & Array Literals
 
 TO-DO
@@ -196,6 +201,11 @@ TO-DO
 ### Classes (ES6)
 
 TO-DO
+
+General syntax:
+```js
+const obj = new ClassName(args); // args initialize obj's state via class constructor
+```
 
 ## ES6+ Features
 
