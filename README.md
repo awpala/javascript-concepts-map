@@ -139,7 +139,7 @@ TO-DO
 | Book Analogy | Software Counterpart |
 | :---: |  :---: |
 | Book | Application Program |
-| Chapters and References | Control Structures |
+| Chapters and References | Control Structures, Modules |
 | Sentences | Statements |
 | Phrases and Clauses | Expressions |
 | Grammatical/Function Words | Operators |
