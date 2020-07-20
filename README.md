@@ -204,8 +204,27 @@ TO-DO
 
 General syntax:
 ```js
-const obj = new ClassName(args); // args initialize obj's state via class constructor
+// Class Definition
+class ClassName {
+  constructor(val1, val2, ..., valN) {
+    // properties
+    this.prop1 = val1;
+    this.prop2 = val2;
+    ...
+    this.propN = valN;
+  }
+  
+  // methods
+  method1( ... ) { ... } // pre-ES6
+  method2 = ( ... ) => { ... } // ES6+ arrow syntax
+  ...
+  methodN = ( ... ) => { ... }
+}
+
+// Object Instantiation
+const obj = new ClassName(arg1, arg2, ..., argN); // args initialize obj's state (i.e., properties) via class constructor
 ```
+N.B. In general, `arg1`/`val1`, `arg2`/`val2`, etc. can be either primitive values or references to other objects (e.g., array literals `[...]`, object literals `{...}`, bound function objects, etc.)
 
 ## ES6+ Features
 
