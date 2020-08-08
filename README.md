@@ -185,10 +185,10 @@ TO-DO
 
 TO-DO
 
-| Primitives | Objects |
-| :---: | :---: |
-| Values | Properties |
-| Operators | Methods |
+| Feature | Primitives | Objects |
+| :---: | :---: | :---: |
+| State | Values | Properties |
+| Actions | Operators | Methods |
 
 ### Object & Array Literals
 
@@ -221,7 +221,7 @@ class ClassName {
   methodN = ( ... ) => { ... }
 }
 
-// Object Instantiation
+// Object Instantiation from Class
 const obj = new ClassName(arg1, arg2, ..., argN); // args initialize obj's state (i.e., properties) via class constructor
 ```
 N.B. In general, `arg1`/`val1`, `arg2`/`val2`, etc. can be either primitive values or references to other objects (e.g., array literals `[...]`, object literals `{...}`, bound function objects, etc.)
